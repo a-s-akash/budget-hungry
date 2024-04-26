@@ -1,0 +1,99 @@
+/* InputComponent.css */
+
+/* Custom styles for the toggle switch */
+.custom-control-input:checked + .custom-control-label::before {
+    background-color: #007bff; /* Change color to match your theme */
+  }
+  
+  .custom-control-input:checked + .custom-control-label::after {
+    background-color: #fff; /* Change color to match your theme */
+    left: calc(100% - 1.25rem); /* Adjust position of slider */
+  }
+  
+  .custom-control-label::before {
+    background-color: #6c757d; /* Change color to match your theme */
+  }
+  
+  .custom-control-label::after {
+    background-color: #fff; /* Change color to match your theme */
+  }
+  
+  .custom-switch .custom-control-label::before {
+    width: 3rem; /* Adjust width of slider */
+  }
+  
+  .custom-switch .custom-control-label::after {
+    width: 1.25rem; /* Adjust width of slider */
+    height: 1.25rem; /* Adjust height of slider */
+  }
+  /* styles.css */
+
+  .container {
+    background-image: url('assets/banana.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background fixed */
+  }
+  /* InputComponent.css */
+
+  .homepage {
+    /* Set the background image and make it fixed */
+    background-image: url('assets/banana.jpg'); /* Replace this with the path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background fixed */
+    height: 100vh; /* Set the height to fill the viewport */
+    color: #fff; /* Set text color to white, or any color that contrasts well with your background */
+    text-align: center; /* Center align text */
+    padding: 50px; /* Add some padding for better readability */
+  }
+  
+  /* InputComponent.css */
+
+/* Custom styles for the toggle switch */
+.custom-control-input:checked + .custom-control-label::before {
+  background-color: #007bff; /* Change color to match your theme */
+}
+
+.custom-control-input:checked + .custom-control-label::after {
+  background-color: #fff; /* Change color to match your theme */
+  left: calc(100% - 1.25rem); /* Adjust position of slider */
+}
+
+.custom-control-label::before {
+  background-color: #6c757d; /* Change color to match your theme */
+}
+
+.custom-control-label::after {
+  background-color: #fff; /* Change color to match your theme */
+}
+
+.custom-switch .custom-control-label::before {
+  width: 3rem; /* Adjust width of slider */
+}
+
+.custom-switch .custom-control-label::after {
+  width: 1.25rem; /* Adjust width of slider */
+  height: 1.25rem; /* Adjust height of slider */
+}
+
+/* Add hover effect to submit buttons */
+.button-img {
+  transition: transform 0.3s; /* Add transition effect */
+}
+
+.button-img:hover {
+  transform: scale(1.1); /* Expand button size on hover */
+}
+
+/* InputComponent.css */
+
+/* InputComponent.css */
+
+.button-img {
+  transition: transform 0.3s; /* Add transition effect */
+}
+
+.button-img:hover {
+  transform: scale(1.2); /* Scale the button on hover */
+}
